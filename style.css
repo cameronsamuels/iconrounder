@@ -33,6 +33,8 @@ a, a:visited, div {
 	padding: 5px;
 	margin: 5px;
 	border: #555 solid;
+	width: 90%;
+	max-width: 400px;
 }
 #icon, #realIcon {
 	/*border-radius: 17.544%;*/
