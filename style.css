@@ -9,9 +9,9 @@ body, html {
 }
 div {overflow: hidden;position: relative}
 input {display: block;filter: alpha(opacity=0);min-height: 100%;min-width: 100%;opacity: 0;position: absolute;right: 0;top: 0}
-a, a:visited, input {cursor: pointer}
+input {cursor: pointer}
 a:active, div:active { background: #ccc }
-a, a:visited, div {
+a, div {
 	padding: 5px;
 	border: solid;
 	width: 90%;
@@ -24,5 +24,5 @@ canvas {
 canvas, a, div { margin: auto }
 canvas, a:not([href]) { visibility:hidden }
 body * { display: block }
-a, a:visited {text-decoration: none}
-a, a:visited, body {color: #555}
+a {text-decoration: none}
+a, body {color: #555}
