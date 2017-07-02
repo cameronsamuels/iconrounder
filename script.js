@@ -18,7 +18,7 @@ function l(e) {
       }
       s.src = "mask.svg";
     }, i.src = e.target.result;
-};
+}
 $('input').onchange = function() {
     if (this.files && this.files[0]) {
         var r = new FileReader();
