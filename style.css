@@ -22,7 +22,7 @@ canvas {
 	max-height:300px
 }
 canvas, a, div { margin: auto }
-canvas, a:not([href]) { visibility:hidden }
+a:not([href]) { visibility:hidden }
 body * { display: block }
 a {text-decoration: none}
 a, body {color: #555}

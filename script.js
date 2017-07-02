@@ -7,7 +7,7 @@ function l(e) {
       c.drawImage(s, 0, 0, w, w);
       c.globalCompositeOperation = 'source-atop';
       c.drawImage(i, 0, -(i.height-w)/2);
-      b.style.visibility = 'visible', $('a').href=b.toDataURL();
+      $('a').href=b.toDataURL();
     }, i.src = e.target.result;
 }
 $('input').onchange = function() {
