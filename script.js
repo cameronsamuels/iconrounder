@@ -11,7 +11,7 @@ function l(e) {
     }, i.src = e.target.result;
 }
 $('input').onchange = function() {
-    if (this.files && this.files[0]) {
+    if (this.files) {
         var r = new FileReader();
         r.onload = l;
         r.readAsDataURL(this.files[0]);
