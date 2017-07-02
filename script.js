@@ -1,11 +1,10 @@
 var w = 0, h = 0, $ = function(e){return document.querySelector(e)}, i;
-
 function l(e) {
     i = new Image();
     i.onload = function() {
       w = this.width, h = this.height;
       //Set canvas and svg mask to the correct dimensions
-      $('#iconCanvas').width = w, $('#iconCanvas').height = h,
+      $('canvas').width = w, $('canvas').height = h,
       $('#svg').width = w, $('#svg').height = h;
       //Put the image data in the image views
       $('#icon').setAttribute('src', e.target.result);

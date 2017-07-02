@@ -14,7 +14,6 @@ body, html {
 div {
 overflow: hidden;
 position: relative;
-display: inline-block;
 }
 div input {
 display: block;
@@ -26,9 +25,7 @@ position: absolute;
 right: 0;
 top: 0;
 }
-a, a:visited, div input {
-	cursor: pointer;
-}
+a, a:visited, div input { cursor: pointer }
 a:active, div:active { background: #ccc }
 a, a:visited, div {
 	padding: 5px;
@@ -36,13 +33,11 @@ a, a:visited, div {
 	border: #555 solid;
 	width: 90%;
 	max-width: 400px;
-	display: block;
 }
 #icon, #realIcon {
-	/*border-radius: 17.544%;*/
 	-webkit-mask-repeat: no-repeat;
   	-webkit-mask-size: 100% 100%;
-  	-webkit-mask-image: url('http://thomasfinch.me/resources/icongenerator/ios7-icon.svg');
+  	-webkit-mask-image: url(http://thomasfinch.me/resources/icongenerator/ios7-icon.svg);
 }
 #realIcon, #svg, canvas, a { display: none }
 #icon {
@@ -50,7 +45,7 @@ a, a:visited, div {
 	max-height:300px;
 	visibility:hidden
 }
-img, input { display: block }
-img { margin: auto; }
+div, img, input { display: block }
+img { margin: auto }
 a, a:visited { text-decoration: none }
 a, a:visited, body { color: #555 }
