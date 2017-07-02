@@ -13,18 +13,16 @@ a, a:visited, input {cursor: pointer}
 a:active, div:active { background: #ccc }
 a, a:visited, div {
 	padding: 5px;
-	margin: auto;
 	border: solid;
 	width: 90%;
 	max-width: 400px;
 }
 canvas {
 	max-width:300px;
-	max-height:300px;
-	visibility:hidden;
-	margin: auto;
+	max-height:300px
 }
-a { display: none }
-canvas, [href] {display: block}
+canvas, a, div { margin: auto }
+canvas, a:not([href]) { visibility:hidden }
+body * { display: block }
 a, a:visited {text-decoration: none}
 a, a:visited, body {color: #555}
