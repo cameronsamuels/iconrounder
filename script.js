@@ -16,7 +16,7 @@ function l(e) {
       s.onload = function() {
         c.drawImage(s, 0, 0, w, h);
 		    c.globalCompositeOperation = 'source-atop';
-		    c.drawImage(new Image(e.target.result), 0, 0);
+		    c.drawImage(i, 0, 0);
         $('#icon').setAttribute('src', b.toDataURL("image/png"));
         $('#icon').style.visibility = 'visible';
         $('a').style.display = "block";
