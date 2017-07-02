@@ -13,6 +13,7 @@ function l(e) {
         $('#icon').setAttribute('src', e.target.result);
 	    $('#realIcon').setAttribute('src', e.target.result);
 	    $('#icon').style.visibility = 'visible';
+      $('a').style.display = "block";
 
 	    //Draw image and mask in canvas
 	 	var b = $('canvas'), c = b.getContext('2d');
