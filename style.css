@@ -13,8 +13,8 @@ a, a:visited, input {cursor: pointer}
 a:active, div:active { background: #ccc }
 a, a:visited, div {
 	padding: 5px;
-	margin: 5px auto;
-	border: #555 solid;
+	margin: auto;
+	border: solid;
 	width: 90%;
 	max-width: 400px;
 }
