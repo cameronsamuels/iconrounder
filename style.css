@@ -37,7 +37,7 @@ a, a:visited, div {
 #icon, #realIcon {
 	-webkit-mask-repeat: no-repeat;
   	-webkit-mask-size: 100% 100%;
-  	-webkit-mask-image: url(http://thomasfinch.me/resources/icongenerator/ios7-icon.svg);
+  	-webkit-mask-image: url(mask.svg);
 }
 #realIcon, #svg, canvas, a { display: none }
 #icon {
