@@ -14,8 +14,8 @@ function l(e) {
         c.drawImage(s, 0, 0, w, h);
 		    c.globalCompositeOperation = 'source-atop';
 		    c.drawImage(i, 0, 0);
-        $('#icon').setAttribute('src', b.toDataURL("image/png"));
-        $('#icon').style.visibility = 'visible';
+        $('img').setAttribute('src', b.toDataURL("image/png"));
+        $('img').style.visibility = 'visible';
         $('a').style.display = "block";
     	  $('a').href=b.toDataURL("image/png");
       }
@@ -23,7 +23,7 @@ function l(e) {
     }, i.src = e.target.result;
 };
 $("a").onclick = function(e) {
-      if (!$('#icon').getAttribute('src')) {
+      if (!$('img').getAttribute('src')) {
   		alert('Please upload a supported image file');
    		e.preventDefault();
    		return;

@@ -34,18 +34,16 @@ a, a:visited, div {
 	width: 90%;
 	max-width: 400px;
 }
-#icon {
+img {
 	-webkit-mask-repeat: no-repeat;
   	-webkit-mask-size: 100% 100%;
   	-webkit-mask-image: url(mask.svg);
+  	max-width:300px;
+	max-height:300px;
+	visibility:hidden;
+	margin: auto
 }
 canvas, a { display: none }
-#icon {
-	max-width:300px;
-	max-height:300px;
-	visibility:hidden
-}
 div, img, input { display: block }
-img { margin: auto }
 a, a:visited { text-decoration: none }
 a, a:visited, body { color: #555 }
