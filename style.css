@@ -29,6 +29,7 @@ top: 0;
 a, a:visited, div input {
 	cursor: pointer;
 }
+a:active, div:active { background: #ccc }
 a, a:visited, div {
 	padding: 5px;
 	margin: 5px auto;
@@ -49,7 +50,7 @@ a, a:visited, div {
 	max-height:300px;
 	visibility:hidden
 }
-img, button, input { display: block }
+img, input { display: block }
 img { margin: auto; }
 a, a:visited { text-decoration: none }
 a, a:visited, body { color: #555 }
