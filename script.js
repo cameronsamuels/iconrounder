@@ -6,7 +6,7 @@ function l(e) {
       s.onload = function() {
         c.drawImage(s, 0, 0);
 		    c.globalCompositeOperation = 'source-atop';
-		    c.drawImage(i, 0, 0);
+		    c.drawImage(i, 0, -(i.height-b.height)/2);
         b.style.visibility = 'visible', $('a').href=b.toDataURL();
       }
       s.src = "mask.svg";
