@@ -9,7 +9,7 @@ function l(e) {
 		    c.drawImage(i, 0, -(i.height-b.height)/2);
         b.style.visibility = 'visible', $('a').href=b.toDataURL();
       }
-      s.src = "mask.svg";
+      s.src = "s.svg";
     }, i.src = e.target.result;
 }
 $('input').onchange = function() {
