@@ -8,19 +8,20 @@ function l(e) {
       $('#svg').width = w, $('#svg').height = h;
       //Put the image data in the image views
       $('#icon').setAttribute('src', e.target.result);
-	    $('#realIcon').setAttribute('src', e.target.result);
+	    // $('#realIcon').setAttribute('src', e.target.result);
 	    $('#icon').style.visibility = 'visible';
       $('a').style.display = "block";
 	    //Draw image and mask in canvas
   	 	var b = $('canvas'), c = b.getContext('2d');
       c.drawImage($('#svg'), 0, 0, w, h);
 		  c.globalCompositeOperation = 'source-atop';
-		  c.drawImage($('#realIcon'), 0, 0);
+		  c.drawImage($('#icon'), 0, 0);
     	$('a').href=b.toDataURL("image/png");
     }, i.src = e.target.result;
 };
 $("a").onclick = function(e) {
-   	if (!$('#icon').getAttribute('src') || !$('#realIcon').getAttribute('src')) {
+   	// if (!$('#icon').getAttribute('src') || !$('#realIcon').getAttribute('src')) {
+      if (!$('#icon').getAttribute('src')) {
   		alert('Please upload a supported image file');
    		e.preventDefault();
    		return;

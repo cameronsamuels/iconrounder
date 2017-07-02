@@ -34,12 +34,14 @@ a, a:visited, div {
 	width: 90%;
 	max-width: 400px;
 }
-#icon, #realIcon {
+/*#icon, #realIcon {*/
+#icon {
 	-webkit-mask-repeat: no-repeat;
   	-webkit-mask-size: 100% 100%;
   	-webkit-mask-image: url(mask.svg);
 }
-#realIcon, #svg, canvas, a { display: none }
+/*#realIcon,*/
+#svg, canvas, a { display: none }
 #icon {
 	max-width:300px;
 	max-height:300px;
