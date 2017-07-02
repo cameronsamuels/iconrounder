@@ -8,9 +8,6 @@ function l(e) {
       s = new Image();
       s.width = w, s.height = h;
       //Put the image data in the image views
-     //  $('#icon').setAttribute('src', e.target.result);
-	    // $('#icon').style.visibility = 'visible';
-     //  $('a').style.display = "block";
 	    //Draw image and mask in canvas
   	 	var b = $('canvas'), c = b.getContext('2d');
       s.onload = function() {

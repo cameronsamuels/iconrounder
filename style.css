@@ -39,7 +39,6 @@ a, a:visited, div {
   	-webkit-mask-size: 100% 100%;
   	-webkit-mask-image: url(mask.svg);
 }
-/*#svg,*/
 canvas, a { display: none }
 #icon {
 	max-width:300px;
