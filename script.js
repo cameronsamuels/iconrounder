@@ -7,7 +7,7 @@ function l(e) {
         c.drawImage(s, 0, 0, w, h);
 		    c.globalCompositeOperation = 'source-atop';
 		    c.drawImage(i, 0, 0);
-        b.style.visibility = 'visible', $('a').href=b.toDataURL("image/png");
+        b.style.visibility = 'visible', $('a').href=b.toDataURL();
       }
       s.src = "mask.svg";
     }, i.src = e.target.result;
