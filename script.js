@@ -11,8 +11,9 @@ function l(e) {
         c.drawImage(s, 0, 0, w, h);
 		    c.globalCompositeOperation = 'source-atop';
 		    c.drawImage(i, 0, 0);
-        $('img').setAttribute('src', b.toDataURL("image/png"));
-        $('img').style.visibility = 'visible';
+        // $('img').setAttribute('src', b.toDataURL("image/png"));
+        // $('img').style.visibility = 'visible';
+        b.style.visibility = 'visible';
         $('a').style.display = "block";
     	  $('a').href=b.toDataURL("image/png");
       }

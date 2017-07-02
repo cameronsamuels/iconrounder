@@ -34,7 +34,8 @@ a, a:visited, div {
 	width: 90%;
 	max-width: 400px;
 }
-img {
+/*img,*/
+canvas {
 	-webkit-mask-repeat: no-repeat;
   	-webkit-mask-size: 100% 100%;
   	-webkit-mask-image: url(mask.svg);
@@ -43,7 +44,10 @@ img {
 	visibility:hidden;
 	margin: auto
 }
-canvas, a { display: none }
-div, img, input { display: block }
+/*canvas,*/
+a { display: none }
+div, canvas,
+/*img,*/
+input { display: block }
 a, a:visited { text-decoration: none }
 a, a:visited, body { color: #555 }
