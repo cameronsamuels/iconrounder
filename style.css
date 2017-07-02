@@ -15,7 +15,7 @@ div {
 overflow: hidden;
 position: relative;
 }
-div input {
+input {
 display: block;
 filter: alpha(opacity=0);
 min-height: 100%;
@@ -25,7 +25,7 @@ position: absolute;
 right: 0;
 top: 0;
 }
-a, a:visited, div input { cursor: pointer }
+a, a:visited, input { cursor: pointer }
 a:active, div:active { background: #ccc }
 a, a:visited, div {
 	padding: 5px;

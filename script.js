@@ -27,7 +27,7 @@ $("a").onclick = function(e) {
    		return;
    	}
 }
-$('[type="file"]').onchange = function() {
+$('input').onchange = function() {
     if (this.files && this.files[0]) {
         var r = new FileReader();
         r.onload = l;
