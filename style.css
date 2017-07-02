@@ -19,9 +19,6 @@ a, a:visited, div {
 	max-width: 400px;
 }
 canvas {
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-size: 100% 100%;
-	-webkit-mask-image: url(mask.svg);
 	max-width:300px;
 	max-height:300px;
 	visibility:hidden;
