@@ -19,13 +19,6 @@ function l(e) {
       s.src = "mask.svg";
     }, i.src = e.target.result;
 };
-$("a").onclick = function(e) {
-      if (!$('img').getAttribute('src')) {
-  		alert('Please upload a supported image file');
-   		e.preventDefault();
-   		return;
-   	}
-}
 $('input').onchange = function() {
     if (this.files && this.files[0]) {
         var r = new FileReader();
