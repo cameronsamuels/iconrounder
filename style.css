@@ -28,6 +28,6 @@ canvas {
 	margin: auto;
 }
 a { display: none }
-canvas {display: block}
+canvas, [href] {display: block}
 a, a:visited {text-decoration: none}
 a, a:visited, body {color: #555}
