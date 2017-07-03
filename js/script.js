@@ -1,5 +1,5 @@
 var $ = function(e){return document.querySelector(e)}, i = new Image(), s = new Image(), b = $('canvas'), c = b.getContext('2d');
-s.src = "s.svg";
+s.src = "assets/s.svg";
 function l(e) {
     i.onload = function() {
       var w = Math.min(i.width, i.height);
