@@ -13,7 +13,7 @@ Make icons the exact roundness as iOS apps.
 
 # Why use this app
 - No watermark, no ads, no in app purchases, no cost
-- Works for any icon, any res
+- Works for any icon, any resolution
 - Fast, light-weight, and reliable
 
 # Apps
