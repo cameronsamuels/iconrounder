@@ -1,4 +1,5 @@
-var $ = function(e){return document.querySelector(e)}, i = new Image(), s = new Image(), b = $('canvas'), c = b.getContext('2d');
+function q(e){return document.querySelector(e)}
+var s = new Image(), i = new Image(), b = q('canvas'), c = b.getContext('2d');
 s.src = "assets/s.svg";
 function l(e) {
     i.onload = function() {
@@ -7,10 +8,10 @@ function l(e) {
       c.drawImage(s, 0, 0, w, w);
       c.globalCompositeOperation = 'source-atop';
       c.drawImage(i, 0, -(i.height-w)/2);
-      $('a').href=b.toDataURL();
+      q('a').href=b.toDataURL();
     }, i.src = e.target.result;
 }
-$('input').onchange = function() {
+q('input').onchange = function() {
     if (this.files) {
         var r = new FileReader();
         r.onload = l;
