@@ -1,5 +1,5 @@
 # iCon Rounder
-Make icons the exact roundness as iOS apps.
+Make icons the exact roundness as iOS apps. The simplest icon rounder. Just 2 clicks.
 
 # How to
 1. Go to <http://cameronsamuels.com/iconrounder>
@@ -7,14 +7,14 @@ Make icons the exact roundness as iOS apps.
 3. Downoad the round icon
 
 # Features
-- The simplest icon rounder. Just 2 buttons
 - Exports as a transparent png
-- Non-sqaure input images are allowed
+- Non-sqaure images will be cropped to the center
 
 # Why use this app
-- No watermark, no ads, no in app purchases, no cost
+- No watermark, no ads, no in app purchases, no cost, royalty free
 - Works for any icon, any resolution
-- Fast, light-weight, and reliable
+- Fast, light-weight, efficient, and reliable
+- Loads, rounds, and downloads in a quarter second
 
 # Apps
 I will publish a Chrome extension for this app. Possibly other apps too.
