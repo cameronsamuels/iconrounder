@@ -4,7 +4,7 @@ Make icons the exact roundness as iOS apps. The simplest icon rounder. Just 2 cl
 # How to
 1. Go to <http://cameronsamuels.com/iconrounder>
 2. Upload an icon
-3. Downoad the round icon
+3. Download the round icon
 
 # Features
 - Exports as a transparent png
