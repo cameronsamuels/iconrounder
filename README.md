@@ -16,9 +16,6 @@ Make icons the exact roundness as iOS apps. The simplest icon rounder. Just 2 cl
 - Fast, light-weight, efficient, and reliable
 - Loads, rounds, and downloads in a quarter second
 
-# Apps
-I will publish a Chrome extension for this app. Possibly other apps too.
-
 # About
 Made by [Cameron Samuels](http://cameronsamuels.com) in July 2017.
 
