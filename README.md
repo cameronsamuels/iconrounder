@@ -7,6 +7,7 @@ Make icons the exact roundness as iOS apps. The simplest icon rounder. Just 2 cl
 # Features
 - Exports as a transparent png
 - Non-sqaure images will be cropped to the center
+- Amazing futuristic style
 # Why use this app
 - No watermark, no ads, no in app purchases, no cost, royalty free
 - Works for any icon, any resolution
