@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var template = new Image("template.svg");
+  var template = new Image();
+  template.src = "template.svg";
   var icon = new Image();
   var canvas = document.querySelector("canvas");
   var context = canvas.getContext("2d");
