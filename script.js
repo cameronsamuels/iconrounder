@@ -6,7 +6,7 @@ var context = canvas.getContext("2d");
 document.querySelector("input").addEventListener("change", function() {
   if (!this.files) return;
   var fileReader = new FileReader();
-  fileReader.addEventListener("load", function() {
+  fileReader.addEventListener("load", function(result) {
     icon.addEventListener("load", function() {
       canvas.width = Math.min(icon.width, icon.height);
       canvas.height = Math.min(icon.width, icon.height);
@@ -15,7 +15,7 @@ document.querySelector("input").addEventListener("change", function() {
       context.drawImage(icon, (canvas.width - icon.width) / 2, (canvas.heigh - icon.height) / 2);
       document.querySelector("a").href = canvas.toDataURL();
     });
-    icon.src = fileReader.target.result; 
+    icon.src = result.target.result; 
   });
   fileReader.readAsDataURL(this.files[0]);
 });
