@@ -1,1 +1,31 @@
-body{user-select:none;-webkit-user-select:none;margin:0;font-family:sans-serif;background:#eee;text-align:center}body>div{position:relative}footer,input{position:absolute;left:0}body>a:not([href]){display:none}input{cursor:pointer;min-height:100%;min-width:100%;opacity:0;top:0}body>a:active,body>div:active{background:#ccc}body>a,body>div{padding:5px;border:solid}body>a,body>div,canvas{margin:1em auto;display:block;width:256px}body>a{text-decoration:none}body,body>a{color:#555}footer{bottom:5px;width:100%}
+body {
+  margin: 0;
+  background: #eee;
+  font-family: sans-serif;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+body>a { text-decoration: none }
+body>a:not([href]) { display: none }
+body>div { position: relative }
+body>a, body>div {
+  padding: 5px;
+  border: solid;
+}
+body>a:active, body>div:active { background: #ccc }
+body>a, body>div, canvas {
+  margin: 1em auto;
+  display: block;
+  width: 256px
+}
+body, body>a { color: #555 }
