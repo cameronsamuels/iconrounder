@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #eee;
+  color: #555;
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+a, div, canvas {
+  display: block;
+  width: 256px;
+  margin: 1em auto;
+}
+a, div {
+  position: relative;
+  padding: 5px;
+  color: inherit;
+  border: solid;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+a:active, div:active { background: #ccc }
+a:not([href]) { display: none }
